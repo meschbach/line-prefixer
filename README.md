@@ -4,3 +4,10 @@ A quick and dirty way to prefix lines.  This program reads them from `stdin` and
 
 This isn't meant to be anything grand.  It's really meant to it easier to run programs in parallel.
 
+## Building
+
+`go build`
+
+## Usage
+
+`echo "Some command" | line-prefixer "prefix"`
